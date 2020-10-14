@@ -20,6 +20,9 @@ buildscript {
 }
 
 repositories {
+    dependencies {
+        implementation("com.github.doyaaaaaken:kotlin-csv-jvm:0.11.1")
+    }    
     jcenter()
 }
 
